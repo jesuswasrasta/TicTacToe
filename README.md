@@ -1,7 +1,17 @@
 # TicTacToe 
 Simple TicTacToe kata.  
-See [Wikipedia - TicTacToe](https://en.wikipedia.org/wiki/Tic-tac-toe) for rules.
 
+The rules of the tic tac toe game are the following:
+
+    * a game is over when all fields are taken
+    * a game is over when all fields in a column are taken by a player
+    * a game is over when all fields in a row are taken by a player
+    * a game is over when all fields in a diagonal are taken by a player
+    * a player can take a field if not already taken
+    * players take turns taking fields until the game is over
+    * there are two player in the game (X and O)
+
+See [Wikipedia - TicTacToe](https://en.wikipedia.org/wiki/Tic-tac-toe) for all the info.
 
 ## Object Calisthenics
 Try following [Object Calisthenics](http://williamdurand.fr/2013/06/03/object-calisthenics/) by Jeff Bay  
@@ -9,13 +19,14 @@ Try following [Object Calisthenics](http://williamdurand.fr/2013/06/03/object-ca
 ### Rules
 In the following, I will review each of these 9 rules listed below:
 
-    * Only One Level Of Indentation Per Method
-    * Don?t Use The ELSE Keyword
-    * Wrap All Primitives And Strings
-    * First Class Collections
-    * One Dot Per Line
-    * Don?t Abbreviate
-    * Keep All Entities Small
-    * No Classes With More Than Two Instance Variables
-    * No Getters/Setters/Properties
+    * only one level of indentation per method
+    * don't use the else keyword
+    * wrap all primitives and strings
+    * first class collections
+    * one dot per line
+    * don't abbreviate
+    * keep all entities small
+    * no classes with more than two instance variables
+    * no getters/setters/properties
+
 
